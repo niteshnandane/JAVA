@@ -1,0 +1,50 @@
+/*
+perpuse of java 8
+
+1. concise and minimal code
+2. utilize function programming
+3. to enable parallel programming more compatible code for multi core processors
+
+feature of java *
+
+Lambda Expressions
+
+stream Api: java stream Api for bulk data operations on collection
+
+Date and time: under package java.time java 8 offers a new date-time Api
+
+Base 64 Encode Decode: ofr base64 encoding,java 8 has built-in
+
+Method reference and constructor reference : ::Operators
+
+default and static method
+
+Functional interface : a functional interface is an interface that has exactly  one
+abstract method. to designate an interface as a funtional interface, we don't need
+to use the  @ functional interface annotation
+
+
+Funtional Interface
+interface having exaclty single abstract method but can have any number of defaults ans
+static  methods. we can invoke lambda expression by using functional interface
+
+
+/*  default Method
+Default methods Inside Interface
+
+until 1.7 only public abstract method were allowed whether we declare by writing or not
+
+similarly public static final variable were allowed.
+since java8  we can have concrete methods as well inside interface
+ */
+
+ /*  static method
+ static method in Interface are those methods
+ which are defined in the interface with the
+ keyword static
+
+ static method contain the complete definition of the function
+
+ cannot be overridden or changed int the implementation class
+ */
+*/
