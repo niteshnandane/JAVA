@@ -11,12 +11,14 @@ since java8  we can have concrete methods as well inside interface
 
 interface parent{
   default void sayHello(){
+
       System.out.println("hello");
   }
 }
 class Child implements parent{
     @Override
     public void sayHello() {
+
         System.out.println("child say Hello");
     }
 }
